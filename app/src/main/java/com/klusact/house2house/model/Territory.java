@@ -1,14 +1,14 @@
 package com.klusact.house2house.model;
 
 /**
- * Created by klaus on 15.10.2016.
+ * Created by klusact on 15.10.2016.
  */
 
 public class Territory {
     private String address;
-    private Integer number;
+    private String number;
 
-    public Territory(String address, Integer number) {
+    public Territory(String address, String number) {
         this.address = address;
         this.number = number;
     }
@@ -21,11 +21,11 @@ public class Territory {
         this.address = address;
     }
 
-    public Integer getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(Integer number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 }

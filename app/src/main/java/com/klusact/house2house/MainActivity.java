@@ -41,16 +41,40 @@ public class MainActivity extends AppCompatActivity {
 
     // этот метод был в примере - с его помощью мы заполнили данными territoryList
     private void prepareTerritoryData() {
-        Territory territory = new Territory("Наукова 68, 1-2 під'їзд", 96);
+        Territory territory = new Territory("Наукова 68, 1-2 під'їзд", "96");
         territoryList.add(territory);
 
-        territory = new Territory("Наукова 68, 3-4 під'їзд", 97);
+        territory = new Territory("Наукова 68, 3-4 під'їзд", "97");
         territoryList.add(territory);
 
-        territory = new Territory("Наукова 68, 5-6 під'їзд", 98);
+        territory = new Territory("Наукова 68, 5-6 під'їзд", "98");
         territoryList.add(territory);
 
-        territory = new Territory("Наукова 68, 7-8 під'їзд", 99);
+        territory = new Territory("Наукова 68, 7-8 під'їзд", "99");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 70, 1-2 під'їзд", "100");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 70, 3-4 під'їзд", "101");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 70, 5-6 під'їзд", "102");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 70, 7-8 під'їзд", "103");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 72, 1-2 під'їзд", "104");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 72, 3-4 під'їзд", "105");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 72, 5-6 під'їзд", "106");
+        territoryList.add(territory);
+
+        territory = new Territory("Наукова 72, 7-8 під'їзд", "107");
         territoryList.add(territory);
 
         mAdapter.notifyDataSetChanged();
